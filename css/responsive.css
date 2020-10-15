@@ -1,0 +1,40 @@
+@media all and (max-width:1000px) {
+
+    /* Barang */
+    .child-barang {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .heading-barang {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Barang */
+}
+
+@media all and (max-width:670px) {
+
+    /* Barang */
+    .child-barang {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .heading-barang {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sony,
+    .iwatch {
+        display: none;
+    }
+
+    span {
+        display: block;
+    }
+
+    /* Barang */
+}
